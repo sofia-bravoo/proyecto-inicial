@@ -1,0 +1,232 @@
+body{
+    background-image: url(./imagenes/codigo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+    background-color: rgb(24, 28, 48) ; ;
+}
+
+.orden-logo{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.logo1{
+    animation-name: shadow;
+    animation-duration: 3s;
+}
+@keyframes shadow{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.logo2{
+    animation: segundo;
+    animation-duration: 4s;
+   
+    
+}
+
+@keyframes segundo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2, h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(103, 137, 131);
+    padding: 5%;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px  3px black;
+}
+
+nav{
+    background-color:rgb(24, 28, 48) ;
+    border: 30px;
+}
+main{
+    background-color: rgb(24, 28, 48);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu1{
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+
+.tex-general{
+    display: flex;
+}
+
+.titulo_primero{
+    color:  rgb(238, 238, 238);
+    margin: 200px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px black;
+    
+}
+
+
+
+.tarjeta{
+    flex-direction: column;
+    width: 300px;
+    border: 5px solid  rgb(103, 137, 131);
+    margin: 70px;
+    background-color:rgb(230, 221, 196) ;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.imagentarjeta{
+    width: 100%;
+}
+
+.boton{
+    background-color:rgb(24, 28, 48) ;
+    color:  rgb(238, 238, 238); 
+}
+
+.botones{
+    text-transform: uppercase;
+    margin: 10px;
+    margin-right: 30px;
+    border-color: rgb(103, 137, 131);
+    color:black;
+    display: inline-block;
+    background-color: rgb(230, 221, 196);
+
+}
+
+.boton-general{
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px rgb(103, 137, 131);
+}
+
+
+
+.partefinal{
+    padding: 30px;
+    background-color: rgb(103, 137, 131);
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+.recuadro-verde{
+    background-color: rgb(103, 137, 131);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 50px;
+}
+
+
+
+
+/* seccion historia*/
+
+
+.texto1{
+    color: rgb(230, 221, 196) ;
+    padding:  30px;
+
+}
+
+.textos{
+    flex-direction: column;
+    border: 30px;
+    margin-bottom: auto;
+}
+.orden-textos{
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+video{
+    width: 700px;
+}
+
+.video1{
+    background-color: rgb(24, 28, 48);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 70px;
+}
+
+
+.barra-controles{
+    background-color: rgb(47, 50, 63);
+    width: 700px;
+    border-radius: 5px;
+    text-align:justify;
+}
+
+
+/*sección juego*/
+#seccion-juego{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(110, 107, 107);
+}
+
+.tarjetaGris{
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cajaRompecabeza{
+    display: flex;
+    direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 5px;
+}
+.rompecabeza{
+    width: 300px;
+    height: 450;
+}
+
+.boton-juego{
+    margin-bottom: 60px;
+}
